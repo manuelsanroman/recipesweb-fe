@@ -1,14 +1,10 @@
 import Vue from 'vue'
-import 'bootstrap-vue'
 import App from './App.vue'
 import router from './router'
+//install bootstrap first
 import 'bootstrap/dist/css/bootstrap.css'
-import { BootstrapVue } from 'bootstrap-vue'
-import { BFormRating } from 'bootstrap-vue'
-Vue.component('b-form-rating', BFormRating)
-import { IconsPlugin } from 'bootstrap-vue'
-Vue.use(IconsPlugin)
-Vue.use(BootstrapVue)
+import BootstrapVue from "bootstrap-vue";
+
 
 Vue.config.productionTip = false
 
