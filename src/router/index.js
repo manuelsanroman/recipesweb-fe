@@ -9,7 +9,8 @@ const routes = [
     path: '/',
     name: 'home',
     component: AppRecipes
-  }
+  },
+
 ]
 
 const router = new VueRouter({
