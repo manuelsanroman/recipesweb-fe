@@ -63,7 +63,7 @@
             </tbody>
           </table>
           <footer class="text-center">
-            Copyright &copy; All Rights Reserved.
+            Add your recipes HERE. Developed by Manuel San Román.
           </footer>
         </div>
       </div>
@@ -125,6 +125,8 @@
             <b-form-input
               id="form-rating-input"
               type="number"
+              min = 1
+              max = 5
               v-model.number="createRecipeForm.rating"
               placeholder="Rating"
               required
@@ -208,6 +210,8 @@
           >
             <b-form-input
               id="form-edit-rating-input"
+              min = 1
+              max = 5
               type="number"
               v-model.number="editRecipeForm.rating"
               placeholder="Rating"
